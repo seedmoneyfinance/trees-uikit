@@ -2470,7 +2470,21 @@ var WalletCard = function (_a) {
 var HelpLink = styled__default['default'](Link)(templateObject_1$E || (templateObject_1$E = __makeTemplateObject(["\n  display: flex;\n  align-self: center;\n  align-items: center;\n  margin-top: 24px;\n"], ["\n  display: flex;\n  align-self: center;\n  align-items: center;\n  margin-top: 24px;\n"])));
 var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
+    var _c = React.useState(false), isMobileDevice = _c[0], setIsMobileDevice = _c[1];
+    var mobileScreenSize = 768;
+    React.useEffect(function () {
+        if (window.screen.availWidth <= mobileScreenSize) {
+            setIsMobileDevice(true);
+        }
+    }, []);
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
+        isMobileDevice &&
+            React__default['default'].createElement("div", { style: { marginBottom: '20px' } },
+                React__default['default'].createElement(Alert, { title: "", variant: "warning" },
+                    React__default['default'].createElement(Text, { as: "p" },
+                        "It looks like you are on a mobile device, click ",
+                        React__default['default'].createElement(Link, { style: { display: 'inline-block' }, href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true }, "here"),
+                        "\u00A0 If you are not on a mobile device, use the buttons below to connect your wallet."))),
         connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
         React__default['default'].createElement(HelpLink, { href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React__default['default'].createElement(Icon$o, { color: "primary", mr: "6px" }),
@@ -2753,7 +2767,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputBorder: "#cccccc", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#FF720D", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputBorder: "#cccccc", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#7dcc32", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#1f2b46", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", inputBorder: "#cccccc", primaryDark: "#d95b00", tertiary: "#2d2f37", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#7dcc32", borderColor: "#524B63", card: "#121827", gradients: {
