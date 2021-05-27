@@ -21,3 +21,5 @@ export { default as GooseIcon } from "./Goose";
 export { default as GithubIcon } from "./Github";
 export { default as GitbookIcon } from "./Gitbook";
 export { default as MediumIcon } from "./Medium";
+export { default as ReferralsIcon } from "./Referrals";
+export { default as FeaturesIcon } from "./Features";
