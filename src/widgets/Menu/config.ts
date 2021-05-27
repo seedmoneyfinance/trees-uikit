@@ -115,6 +115,21 @@ export const links = [
 
 export const socials = [
   {
+    label: "Github",
+    icon: "GithubIcon",
+    href: "https://github.com/martiandefi",
+  },
+  {
+    label: "Gitbook",
+    icon: "GitbookIcon",
+    href: "https://martianswap.gitbook.io/",
+  },
+  {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://martianswap.medium.com/",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -164,7 +179,7 @@ export const socials = [
       // },
       {
         label: "Announcements",
-        href: "https://t.me/martianswap",
+        href: "https://t.me/martianswapnews",
       },
       // {
       //   label: "Whale Alert",
