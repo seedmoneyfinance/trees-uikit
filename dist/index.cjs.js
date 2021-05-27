@@ -2015,7 +2015,8 @@ var IconModule = /*#__PURE__*/Object.freeze({
     GitbookIcon: Icon$14,
     MediumIcon: Icon$15,
     ReferralsIcon: Icon$16,
-    FeaturesIcon: Icon$17
+    FeaturesIcon: Icon$17,
+    ListIcon: Icon$17
 });
 
 var MenuButton = styled__default['default'](Button)(templateObject_1$x || (templateObject_1$x = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
