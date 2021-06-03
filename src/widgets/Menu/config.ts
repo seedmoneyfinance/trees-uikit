@@ -59,6 +59,7 @@ export const links = [
     items: [
       {
         label: "Overview",
+        external: true,
         href: "https://pancakeswap.info",
       },
       {

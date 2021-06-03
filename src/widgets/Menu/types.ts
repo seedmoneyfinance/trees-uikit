@@ -27,12 +27,14 @@ export interface MenuSubEntry {
   label: string;
   href: string;
   calloutClass?: string;
+  external?: boolean;
 }
 
 export interface MenuEntry {
   label: string;
   icon: string;
   items?: MenuSubEntry[];
+  external?: boolean;
   href?: string;
   calloutClass?: string;
   initialOpenState?: boolean;

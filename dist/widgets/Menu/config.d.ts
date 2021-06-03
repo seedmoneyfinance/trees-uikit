@@ -11,17 +11,22 @@ export declare const links: ({
         label: string;
         href: string;
     }[];
+    calloutClass: string;
     href?: undefined;
-    calloutClass?: undefined;
 } | {
     label: string;
     icon: string;
-    items: {
+    items: ({
+        label: string;
+        external: boolean;
+        href: string;
+    } | {
         label: string;
         href: string;
-    }[];
-    calloutClass: string;
+        external?: undefined;
+    })[];
     href?: undefined;
+    calloutClass?: undefined;
 })[];
 export declare const socials: ({
     label: string;

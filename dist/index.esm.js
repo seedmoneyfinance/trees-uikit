@@ -2108,6 +2108,7 @@ var links = [
         items: [
             {
                 label: "Overview",
+                external: true,
                 href: "https://pancakeswap.info",
             },
             {
@@ -2331,10 +2332,10 @@ var PanelBody = function (_a) {
         if (entry.items) {
             return (React.createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, initialOpenState: entry.initialOpenState, className: calloutClass }, isPushed &&
                 entry.items.map(function (item) { return (React.createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                    React.createElement(MenuLink, { href: item.href }, item.label))); })));
+                    React.createElement(MenuLink, __assign({}, item.external ? { target: "_blank" } : {}, { href: item.href }), item.label))); })));
         }
         return (React.createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-            React.createElement(MenuLink, { href: entry.href, onClick: handleClick },
+            React.createElement(MenuLink, __assign({}, entry.external ? { target: "_blank" } : {}, { href: entry.href, onClick: handleClick }),
                 iconElement,
                 React.createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
     })));
