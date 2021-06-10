@@ -118,17 +118,17 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/martiandefi",
+    href: "https://rhinofinance.gitbook.io/rhino-finance/",
   },
   {
     label: "Gitbook",
     icon: "GitbookIcon",
-    href: "https://martianswap.gitbook.io/",
+    href: "https://rhinofinance.gitbook.io/rhino-finance/",
   },
   {
     label: "Medium",
     icon: "MediumIcon",
-    href: "https://martianswap.medium.com/",
+    href: "https://rhinofinance.medium.com",
   },
   {
     label: "Telegram",
@@ -136,7 +136,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/martianswap",
+        href: "https://t.me/rhino_finance",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -178,10 +178,7 @@ export const socials = [
       //   label: "Français",
       //   href: "https://t.me/pancakeswapfr",
       // },
-      {
-        label: "Announcements",
-        href: "https://t.me/martianswapnews",
-      },
+
       // {
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
@@ -191,7 +188,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/MartianSWAP",
+    href: "https://twitter.com/rhino_defi",
   },
 ];
 
