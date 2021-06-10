@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martiandefi/martian-ui-kit-dex.git"
+    "url": "git+https://github.com/mrjunying98/rhino-uikit.git"
   },
   "license": "MIT",
   "scripts": {
@@ -22,12 +22,7 @@
     "test": "jest",
     "release": "yarn build && np"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
+ 
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"
@@ -65,7 +60,7 @@
     "react-dom": "^17.0.1",
     "react-is": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "rollup": "^2.38.4",
+    "rollup": "2.38.4",
     "styled-components": "^5.2.0",
     "themeprovider-storybook": "^1.6.4",
     "ts-jest": "^26.5.0",
@@ -87,8 +82,8 @@
     "styled-system": "^5.1.5"
   },
   "bugs": {
-    "url": "https://github.com/martiandefi/martian-ui-kit-dex"
+    "url": "https://github.com/mrjunying98/rhino-uikit"
   },
-  "homepage": "https://github.com/martiandefi/martian-ui-kit-dex#readme",
+  "homepage": "https://github.com/mrjunying98/rhino-uikit#readme",
   "author": ""
 }
