@@ -8,7 +8,7 @@ import { ModalTheme } from "../widgets/Modal/types";
 import { Colors, Breakpoints, MediaQueries, Spacing, Shadows, Radii, ZIndices } from "./types";
 
 export interface PancakeTheme {
-  siteWidth: number;
+  //siteWidth: number;
   isDark: boolean;
   alert: AlertTheme;
   colors: Colors;
