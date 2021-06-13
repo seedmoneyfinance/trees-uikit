@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrjunying98/rhino-uikit.git"
+    "url": "git+https://github.com/seedmoneyfinance/seed-uikit"
   },
   "license": "MIT",
   "scripts": {
@@ -81,8 +81,8 @@
     "styled-system": "^5.1.5"
   },
   "bugs": {
-    "url": "https://github.com/mrjunying98/rhino-uikit"
+    "url": "https://github.com/seedmoneyfinance/seed-uikit"
   },
-  "homepage": "https://github.com/mrjunying98/rhino-uikit#readme",
+  "homepage": "https://github.com/seedmoneyfinance/seed-uikit#readme",
   "author": ""
 }
