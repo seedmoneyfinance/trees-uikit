@@ -11,6 +11,7 @@ export declare const shadows: {
     inset: string;
 };
 declare const _default: {
+    siteWidth: number;
     breakpoints: Breakpoints;
     mediaQueries: MediaQueries;
     spacing: Spacing;
