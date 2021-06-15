@@ -2055,7 +2055,7 @@ var Logo$1 = function (_a) {
         React__default['default'].createElement(Icon$q, { className: "mobile-icon" }),
         React__default['default'].createElement(Logo, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
-        React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush }, isPushed ? (React__default['default'].createElement(Icon$P, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$O, { width: "24px", color: "textSubtle" }))),
+        React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush }, isPushed ? (React__default['default'].createElement(Icon$P, { width: "24px", color: "#FFFFFF" })) : (React__default['default'].createElement(Icon$O, { width: "24px", color: "#FFFFFF" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink$1, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink$1, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
 };
 var templateObject_1$y;
@@ -2179,17 +2179,17 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://rhinofinance.gitbook.io/rhino-finance/",
+        href: "/",
     },
     {
         label: "Gitbook",
         icon: "GitbookIcon",
-        href: "https://rhinofinance.gitbook.io/rhino-finance/",
+        href: "https://seedmoneyfinance.gitbook.io/seedmoney-finance/",
     },
     {
         label: "Medium",
         icon: "MediumIcon",
-        href: "https://rhinofinance.medium.com",
+        href: "https://medium.com/@seedmoneyfinance",
     },
     {
         label: "Telegram",
@@ -2197,14 +2197,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/rhino_finance",
+                href: "hhttps://t.me/seedmoneyfinance",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/rhino_defi",
+        href: "https://twitter.com/SeedMoneyDefi",
     },
 ];
 var MENU_HEIGHT = 64;

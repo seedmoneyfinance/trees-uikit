@@ -118,17 +118,17 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://rhinofinance.gitbook.io/rhino-finance/",
+    href: "/",
   },
   {
     label: "Gitbook",
     icon: "GitbookIcon",
-    href: "https://rhinofinance.gitbook.io/rhino-finance/",
+    href: "https://seedmoneyfinance.gitbook.io/seedmoney-finance/",
   },
   {
     label: "Medium",
     icon: "MediumIcon",
-    href: "https://rhinofinance.medium.com",
+    href: "https://medium.com/@seedmoneyfinance",
   },
   {
     label: "Telegram",
@@ -136,7 +136,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/rhino_finance",
+        href: "hhttps://t.me/seedmoneyfinance",
       },
       // {
       //   label: "Bahasa Indonesia",
@@ -188,7 +188,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/rhino_defi",
+    href: "https://twitter.com/SeedMoneyDefi",
   },
 ];
 
