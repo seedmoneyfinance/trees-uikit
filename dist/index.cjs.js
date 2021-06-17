@@ -2197,7 +2197,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "hhttps://t.me/seedmoneyfinance",
+                href: "https://t.me/seedmoneyfinance",
             },
         ],
     },
