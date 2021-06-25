@@ -5,7 +5,6 @@ import PanelFooter from "./PanelFooter";
 import { SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
 import { PanelProps, PushedProps } from "./types";
 
-
 interface Props extends PanelProps, PushedProps {
   showMenu: boolean;
   isMobile: boolean;
@@ -40,8 +39,6 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      
-  
       <PanelFooter {...props} />
     </StyledPanel>
   );
