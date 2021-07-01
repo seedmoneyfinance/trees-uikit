@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seedmoneyfinance/seed-uikit"
+    "url": "git+https://github.com/seedmoneyfinance/trees-uikit"
   },
   "license": "MIT",
   "scripts": {
@@ -81,8 +81,8 @@
     "styled-system": "^5.1.5"
   },
   "bugs": {
-    "url": "https://github.com/seedmoneyfinance/seed-uikit"
+    "url": "https://github.com/seedmoneyfinance/trees-uikit"
   },
-  "homepage": "https://github.com/seedmoneyfinance/seed-uikit#readme",
+  "homepage": "https://github.com/seedmoneyfinance/trees-uikit#readme",
   "author": ""
 }
